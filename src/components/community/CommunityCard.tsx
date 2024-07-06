@@ -29,7 +29,7 @@ const CommunityCard = ({
         </div>
       </div>
       <div className="comment h-16 max-sm:h-auto max-sm:p-5 max-sm:text-sm max-sm:text-center bg-main-white rounded-bl-xl rounded-br-xl flex justify-center items-center font-semibold">
-        <p>"{comment}"</p>
+        <p>{comment}"</p>
       </div>
     </div>
   );
