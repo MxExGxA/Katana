@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap"); /*Reggae Font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;900&display=swap"); /*Poppins Font*/
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap"); /*Podkova Font*/
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap"); /*Ma Shan*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212121;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c02929;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.line-height-zero * {
+  line-height: 300px;
+  vertical-align: middle;
+}
+
+.gradient-nexus {
+  background: rgb(192, 41, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(192, 41, 41, 1) 23%,
+    rgba(253, 127, 127, 1) 51%,
+    rgba(212, 38, 38, 1) 80%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  font-size: 20px;
+}
+
+a:hover {
+  -webkit-text-stroke: 1px #212121;
+}
