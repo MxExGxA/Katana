@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const HomeSecond = () => {
   return (
-    <div className="w-full flex justify-center items-center py-12">
+    <div className="w-full h-screen flex justify-center items-center py-12">
       <div className="left w-1/2 max-lg:hidden flex justify-center">
         <Image
           src={katanas}
           alt="katans image"
-          className="w-[500px] rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-300   max-lg:hidden"
+          className=" max-2xl:w-[400px] rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-300 max-xl:w-96  max-lg:hidden"
         />
       </div>
       <div className="right w-1/2 max-lg:w-full ml-10 max-md:mx-auto flex justify-center mr-20 max-md:text-center">

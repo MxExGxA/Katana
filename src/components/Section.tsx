@@ -4,7 +4,7 @@ import { sectionChildren } from "@/utils/types";
 
 const Section = ({ children }: sectionChildren) => {
   return (
-    <section className="relative w-full min-h-lvh flex justify-center bg-main-dark px-12 max-sm:px-2">
+    <section className="relative w-full min-h-screen flex justify-center bg-main-dark px-12 max-sm:px-2">
       <Image
         src={noise}
         alt="noise texture"

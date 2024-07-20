@@ -45,12 +45,12 @@ const HomeForth = () => {
         <Image
           src={samuriBG}
           alt="samuri bg"
-          className="absolute right-20 max-md:right-0 bottom-20"
+          className="absolute right-20 w-[500px] max-xl:w-96 max-md:right-0 bottom-20"
         />
         <Image
           src={samuriTransparent}
           alt="samuri transparent"
-          className="absolute right-24 max-md:right-0 bottom-0 z-30"
+          className="absolute right-24 w-[500px] max-xl:w-96 max-md:right-0 bottom-0 z-30"
         />
       </div>
     </div>
